@@ -5,8 +5,3 @@ Completed Stuff:
 12/3/22 - Exercises 10-12
 12/4/22 - Exercises 13-15; Exercies 16-17 are projects for later; Exercise 18
 12/5/22 - Skipped Exercise 19; Exercise 20; Going back to project exercises
-
-
-git add .
-git commit -m "MESSAGE HERE"
-git push origin master
