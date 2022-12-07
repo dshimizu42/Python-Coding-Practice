@@ -2,11 +2,11 @@
 
 userNum = int(input('Enter any whole number: '))
 
-space = range(1, userNum)
+space = range(1, userNum) # Defining the range of integers in space variable
 y = []
 
 for num in space:
-    remainder = userNum % num
+    remainder = userNum % num # Taking the modulous to deterimine the remainder of the numbers in the range
     
     if remainder == 0:
         y.append(num)
