@@ -6,6 +6,7 @@ Completed Stuff (1-18, 20-22):
 12/4/22 - Exercises 13-15; Exercies 16-17 are projects for later; Exercise 18
 12/5/22 - Skipped Exercise 19; Exercise 20; Going back to project exercises
 12/8/22 - Exercises 16-17, 21-24
+12/9/22 - Exercises 25-26
 
 
 List vs Set
