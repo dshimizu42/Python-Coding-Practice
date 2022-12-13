@@ -7,7 +7,8 @@ Completed Stuff (1-18, 20-22):
 12/5/22 - Skipped Exercise 19; Exercise 20; Going back to project exercises
 12/8/22 - Exercises 16-17, 21-24
 12/9/22 - Exercises 25-26
-12/12/22 - Exercise 27-29
+12/12/22 - Exercises 27-29
+12/13/22 - Exercises 30-34
 
 
 List vs Set
