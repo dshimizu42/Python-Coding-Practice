@@ -5,26 +5,33 @@ import json
 
 if __name__=="__main__":
     
-    birthdayDictionary = {
-        "Albert Einstein": '03/14/1879',
-        "Benjamin Frankin": '01/17/1706',
-        "Ada Lovelace": '10/10/1815'
-        }
-    
-    with open("info.json", "w") as f:
-        json.dump(birthdayDictionary, f)
-    
     with open("info.json", "r") as a:
-        birthday = json.load(a)
+        birthday = json.load(a)    
+    
+    while True:
+        usrInput = input("Would you like to enter more names into the birthday list?: ").strip().lower()
+        
+        if usrInput == "yes":
+            usrInputN, usrInputB = input("Please enter the name and birthday of a person, separated by a comma: ").split(',')
+            birthday.update({usrInputN:usrInputB})
+        elif usrInput == "no":
+            break
+        else:
+            print("Invalid input. Please try again")
     
     print("Welcome to the birthday dictionary. We know the birthdays of:")
     
     for keys, values in birthday.items():
         print(keys)
     
-    usrInput = input("Who's birthday do you want to look up?: ")
+    while True:
+        usrInput = input("Who's birthday do you want to look up?: ")
+        
+        if usrInput in birthday.keys():
+            print("{}'s birthday is {}".format(usrInput, birthday[usrInput]))
+            break
+        else:
+            print("Person not found. Please enter another name.")
     
-    if usrInput in birthday.keys():
-        print("{}'s birthday is {}".format(usrInput, birthday[usrInput]))
-    else: 
-        print("Person not found. Please enter another name.")    
+    with open("info.json", "w") as f:
+        json.dump(birthday, f)

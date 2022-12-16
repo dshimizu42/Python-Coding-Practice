@@ -9,6 +9,7 @@ Completed Stuff (1-18, 20-22):
 12/9/22 - Exercises 25-26
 12/12/22 - Exercises 27-29
 12/13/22 - Exercises 30-34
+12/15/22 - Exercises 35-40
 
 
 List vs Set
